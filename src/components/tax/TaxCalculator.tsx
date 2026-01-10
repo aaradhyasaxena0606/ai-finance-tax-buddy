@@ -7,13 +7,13 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 /**
- * NEW TAX REGIME SLABS FOR AY 2024-25
+ * New Tax Regime — FY 2025–26 (Assessment Year 2026–27)
  * 
  * This calculator uses ONLY the New Tax Regime as it is the default regime
- * from AY 2024-25 onwards. The Old Regime has been removed to simplify
+ * from AY 2026 onwards. The Old Regime has been removed to simplify
  * the prototype and make it easier to explain during viva.
  * 
- * CORRECT Slab Structure for New Regime (AY 2024-25):
+ * CORRECT Slab Structure for New Regime (FY 2025–26 | AY 2026–27):
  * ₹0 - ₹4,00,000         → 0% (No tax)
  * ₹4,00,001 - ₹8,00,000  → 5%
  * ₹8,00,001 - ₹12,00,000 → 10%
@@ -137,7 +137,7 @@ const TaxCalculator = () => {
   const [result, setResult] = useState<TaxResult | null>(null);
 
   /**
-   * Main calculation function for New Tax Regime (AY 2024-25)
+   * Main calculation function for New Tax Regime (FY 2025–26 | AY 2026–27)
    */
   const calculateTax = () => {
     let grossIncome = 0;
@@ -233,7 +233,7 @@ const TaxCalculator = () => {
               <div>
                 <h3 className="font-semibold text-sm text-foreground mb-1">New Tax Regime</h3>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  This is the default regime from AY 2024-25. Lower rates, but no 80C/80D deductions. 
+                  This is the default regime from FY 2025-26(AY 2026-27). Lower rates, but no 80C/80D deductions. 
                   Only salaried individuals get a ₹50,000 standard deduction.
                 </p>
               </div>
@@ -244,7 +244,7 @@ const TaxCalculator = () => {
           <div className="p-5 rounded-xl border border-border bg-card">
             <h3 className="font-semibold text-sm text-foreground mb-4 flex items-center gap-2">
               <TrendingDown className="h-4 w-4 text-accent" />
-              Tax Slabs (AY 2024-25)
+              Tax Slabs (FY 2025–26 | AY 2026–27)
             </h3>
             <div className="space-y-2">
               {[
@@ -287,7 +287,7 @@ const TaxCalculator = () => {
               </div>
               <div>
                 <h2 className="text-xl font-bold text-foreground">Calculate Your Tax</h2>
-                <p className="text-sm text-muted-foreground">For Assessment Year 2024-25</p>
+                <p className="text-sm text-muted-foreground">For Assessment Year 2026-27</p>
               </div>
             </div>
 

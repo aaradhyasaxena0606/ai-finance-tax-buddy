@@ -19,7 +19,7 @@ const IncomeTaxAndGST = () => {
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-white/8 border border-white/10 mb-5">
               <GraduationCap className="h-3.5 w-3.5 text-white/60" />
               <span className="text-xs text-white/60 font-medium tracking-wide uppercase">
-                Educational Module • AY 2024-25
+                Educational Module • FY 2025-26 | AY 2026-27 
               </span>
             </div>
             

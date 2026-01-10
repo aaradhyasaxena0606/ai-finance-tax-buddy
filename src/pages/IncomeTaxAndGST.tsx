@@ -81,12 +81,12 @@ const IncomeTaxAndGST = () => {
                 <SectionHeader 
                   icon={Calculator}
                   title="Income Tax Calculator"
-                  subtitle="New Tax Regime (AY 2024-25)"
+                  subtitle="New Tax Regime (FY 2025-26 | AY 2026-27)"
                   accentColor="primary"
                 />
                 <div className="mt-5 space-y-4">
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    This calculator follows the New Tax Regime (AY 2024–25) and reflects current rebate rules under Section 87A.
+                    This calculator follows the New Tax Regime (FY 2025-26 | AY 2026-27) and reflects current rebate rules under Section 87A.
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Enter your income details to see exactly how much tax applies — or whether you qualify for zero tax.

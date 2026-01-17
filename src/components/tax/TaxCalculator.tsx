@@ -211,6 +211,10 @@ const TaxCalculator = () => {
   const isPresumptiveEligible = grossReceiptsValue <= PRESUMPTIVE_TURNOVER_LIMIT;
 
   return (
+     <div className="animate-fade-in">
+      {/* Section Introduction */}
+      <div className="mb-8">
+      </div>
       {/* Two-Column Layout: Guidance (left) + Calculator (right) */}
       <div className="grid lg:grid-cols-12 gap-8">
         {/* Left Column - Context & Guidance (35%) */}

@@ -211,15 +211,6 @@ const TaxCalculator = () => {
   const isPresumptiveEligible = grossReceiptsValue <= PRESUMPTIVE_TURNOVER_LIMIT;
 
   return (
-    <div className="animate-fade-in">
-      {/* Section Introduction */}
-      <div className="mb-8">
-        <p className="text-muted-foreground leading-relaxed max-w-2xl">
-          Most young earners don't know how much tax they actually owe — or that they might owe nothing at all. 
-          This calculator helps you understand your tax position under the New Regime, step by step.
-        </p>
-      </div>
-
       {/* Two-Column Layout: Guidance (left) + Calculator (right) */}
       <div className="grid lg:grid-cols-12 gap-8">
         {/* Left Column - Context & Guidance (35%) */}

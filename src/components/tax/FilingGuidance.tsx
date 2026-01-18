@@ -149,7 +149,7 @@ const FilingGuidance = () => {
                 <div className="p-4 rounded-xl bg-primary/5 border border-primary/20">
                   <p className="text-xs text-muted-foreground mb-1">Official Portal</p>
                   <a 
-                    href="https://incometax.gov.in" 
+                    href="https://incometaxindia.gov.in/Pages/tax-services/file-income-tax-return.aspx" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="font-semibold text-primary flex items-center gap-1 hover:underline"
